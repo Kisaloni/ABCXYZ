@@ -70,6 +70,16 @@ header a:hover
     color: #ccc;
     font-weight: bold;
 }
+/*---------------------------showcase-----------------------------*/
+#showcase
+{
+    min-height: 400px;
+    background: url('/img/showcase-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-x: 800; */
+}
+/*-----------------------------footer-----------------------------*/
 footer
 {
     padding: 20px;
