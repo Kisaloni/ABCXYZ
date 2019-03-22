@@ -3,8 +3,15 @@
             <h1 title="My Website" id="branding">My Website</h1>
         </div>
 </header> */
-haeder{
+header{
     padding: 40px;
     text-align: left;
 }
-#
+header
+{
+    background: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:3px solid #e8941d;
+}
