@@ -9,9 +9,9 @@
 {
     font-family: 'PT Sans', sans-serif;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    background-color: #ccc;  /*  #252529 */
+    background-color: #fff;  /*  #252529 */
     margin: 0;
-    color: #fff;
+    color: #333;
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -31,7 +31,7 @@ a
     text-decoration: none;
 }
 .filter{
-    min-height: 427px;
+    min-height: 415px;
     background:rgba(100, 100, 100, .3);
     position: absolute;
     top: -1%;
