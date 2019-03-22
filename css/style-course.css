@@ -1,0 +1,9 @@
+.course-box{
+    padding: 40px;
+    margin: 20px;
+    text-align:left;
+    border:1px solid #ccc;
+    background: #35424a;
+    color: #fff;
+    border-radius: 5px;
+}

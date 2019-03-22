@@ -7,6 +7,7 @@ article.art-box{
     padding: 40px;
     border: 1px solid #999;
     background: #35424a;
+    color: #fff;
 }
 article.art-box .side-img{
     width:39%;
@@ -27,6 +28,7 @@ section #why-us {
     padding: 40px;
     border: 1px solid #999;
     background: #35424a;
+    color: #fff;
 }
 section #why-us h1{
     margin: 0px 0 20px 0;
