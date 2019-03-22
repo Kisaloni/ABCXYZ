@@ -8,11 +8,12 @@
     <meta name="keywords" content="key1, key2, key3, key4, insert, related, keywords, here, seperted, by, comma">
     <meta name="author" content="Kishan Dasondhi">
     <meta name="title" content="title | describe your title here">
-    <title>Web template | Welcome to our template</title>
+    <title>Web template | Conatct page</title>
     <!-- this part of markupo should be edited by owner to make the file content relevent to website's content -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/header-footer-showcase.css">
+    <link rel="stylesheet" href="/css/style-contact.css">
 </head>
 <body>
     <!-- header and nav part -->
@@ -45,16 +46,20 @@
     <!-- showcase ends here-->
     <section id="contact">
         <div class="container">
-            <h1>Contact us</h1>
-            <form action="">
-                First Name: <input type="text">
-                Last Name: <input type="text">
-                Email: <input type="email" name="" id="">
-                Your Message: <textarea name="" id="" cols="" rows=""></textarea>
-            </form>
+            <div class="part">
+                <h1>Contact us</h1>
+            </div>
+            <div class="part">
+                <form action="">
+                    <label for="i-fname">First Name: </label><br> <input type="text" id="i-fname"><br>
+                    <label for="i-mail">Last Name: </label><br> <input type="text" id="i-lname"><br>
+                    <label for="i-mail">Email: </label><br> <input type="email" name="" id="i-mail"><br>
+                    <label for="i-msg">Your Message: </label><br> <textarea name="" id="i-msg" cols="" rows=""></textarea><br>
+                    <input type="submit" class="btn">
+                </form>
+            </div>
         </div>
     </section>
-    <hr>
     <footer>
         <div class="container">
             <p>My Website, copyright &copy;2019</p>
