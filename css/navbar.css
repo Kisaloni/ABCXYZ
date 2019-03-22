@@ -13,13 +13,17 @@ body
     line-height: 1.6;
     
 }
+nav.cf{
+    position: sticky;
+    top: 0;
+}
 nav
 {
     height: 40px;
     width: 100%;
     background-color: #333;
     color:#eee;
-    /* position: fixed; */
+    
 } 
 nav li{
     display:inline;
@@ -87,6 +91,7 @@ nav a#openup {
 .cf:before, .cf:after {
 content: "";
 display: table;
+
 }
 
 .cf:after {
