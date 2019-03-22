@@ -1,29 +1,17 @@
 /*------------------------code for responsive nav bar starts here-------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
-*{
-    margin: 0;
-    padding: 0;
-}
-body
-{
-    font-family: 'PT Sans', sans-serif;
-    background-color: #ccc;  /*  #252529 */
-    margin: 0;
-    color: #fff;
-    line-height: 1.6;
-    
-}
+
 nav.cf{
     position: sticky;
     top: 0;
 }
 nav
 {
-    height: 40px;
+    height: 46px;
     width: 100%;
     background-color: #333;
     color:#eee;
-    
+    padding: 4px;
+    z-index: 2;
 } 
 nav li{
     display:inline;
