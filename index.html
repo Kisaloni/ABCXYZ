@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/header-footer-showcase.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style-course.css">
+    <link rel="stylesheet" href="css/style-gallery.css">
+    <link rel="stylesheet" href="css/style-news.css">
 </head>
 <body>
     <!-- header and nav part starts here -->
@@ -21,8 +25,8 @@
             <h1 title="My Website" id="branding">My Website</h1>
         </div>
     </header>
-    <nav class="cf">
-        <ul class="cf" >
+    <nav class="my-nav">
+        <ul class="my-nav" >
             <li><a href="index.html">Home</a></li>
             <li><a href="courses.html">Courses</a></li>
             <li><a href="gallery.html">Gallery</a></li>
@@ -36,7 +40,7 @@
     <!-- showcase starts here-->
     <section id="showcase" >
         <div class="filter">
-            <div class="container ">
+            <div class="container">
                 <h1>Welcome</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus assumenda porro totam beatae magni nobis officiis?</p>
             </div>
@@ -44,96 +48,81 @@
     </section>
     <!-- showcase ends here-->
     <section id="courses">
-        <div class="container">
+        <div class="container" style="padding-bottom:25px;"">
             <h1>Courses</h1>
-            <div class="course-box">
-                <h3>course 1</h3>
-                <p>an image should be herer and description of course</p>
+            <div class="course-box odd">
+                <h3>Course 1</h3>
+                <h4>Short criteria and description of course</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat nesciunt delectus. Delectus quo necessitatibus neque repudiandae ex ducimus praesentium aut dicta, provident impedit non. Suscipit itaque aliquam fugit aspernatur quaerat voluptatibus cumque assumenda ad.</p>
             </div>
-            <div class="course-box">
-                <h3>course 2</h3>
-                <p>an image should be herer and description of course</p>
+            <div class="course-box even">
+                <h3>Course 2</h3>
+                <h4>Short criteria and description of course</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat nesciunt delectus. Delectus quo necessitatibus neque repudiandae ex ducimus praesentium aut dicta, provident impedit non. Suscipit itaque aliquam fugit aspernatur quaerat voluptatibus cumque assumenda ad.</p>
             </div> 
-            <div class="course-box">
-                <h3>course 3</h3>
-                <p>an image should be herer and description of course</p>
-            </div>
-            <div class="course-box">
-                <h3>course 4</h3>
-                <p>an image should be herer and description of course</p>
-            </div>
-            <div class="course-box">
-                <h3>course 5</h3>
-                <p>an image should be herer and description of course</p>
-            </div>
-            <a href="courses.html">Know more</a>
+            <a href="courses.html" class="btn_1" >Know more</a>
         </div>
     </section>
-    <hr>
-    <section id="gallery">
-        <div class="container">
+    <div id="one" >
+        <div id="two" style="position:relative;">
             <h1>Gallery</h1>
-            <div class="img-box">
-                <img src="" alt=""/>
-                <h3>Caption</h3>
-            </div>
-            <div class="img-box">
-                <img src="" alt=""/>
-                <h3>Caption</h3>
-            </div>
-            <div class="img-box">
-                <img src="" alt=""/>
-                <h3>Caption</h3>
-            </div>
-            <div class="img-box">
-                <img src="" alt=""/>
-                <h3>Caption</h3>
-            </div>
-            <a href="gallery.html">Show More</a>
+            <section id="gallery" style="padding-bottom:70px;">
+                <div>
+                    <a href="./img/5.jpg" target="_blank" ><img src="./img/5.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="./img/4.jpg" target="_blank" ><img src="./img/4.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="./img/3.jpg" target="_blank" ><img src="./img/3.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="./img/2.jpg" target="_blank" ><img src="./img/2.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="./img/1.jpg" target="_blank" ><img src="./img/1.jpg" alt=""></a>
+                </div>
+            </section>
+            <a href="gallery.html" class="btn_1" style="position: absolute;top:86%;left:46.5%;">Show more</a>
         </div>
-    </section>
-    <hr>
+    </div>
     <section id="news">
-        <div class="container">
-            <h1>News</h1>
-            <div class="news-box">
-                <h3>news 1</h3>
-                <p>an image should be herer and description of news</p>
+        <h1 style="margin:20px 0; ">News & Updates</h1>
+        <div id="news-container" style="margin-bottom: 20px;">
+            <div class="grid-container">
+                <div class="news-box">
+                    <img src="./img/img5.jpeg" alt="">
+                    <div class="txt">
+                        <h3>News Heading 1 </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum placeat excepturi obcaecati laboriosam eligendi rerum, modi iste, quas ratione dolore quod ab cupiditate et dolor.</p>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <img src="./img/img5.jpeg" alt=""> 
+                    <div class="txt">
+                        <h3>News Heading 2</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum placeat excepturi obcaecati laboriosam eligendi rerum, modi iste, quas ratione dolore quod ab cupiditate et dolor.</p>
+                    </div>
+                </div> 
             </div>
-            <div class="news-box">
-                <h3>news 2</h3>
-                <p>an image should be herer and description of news</p>
-            </div> 
-            <div class="news-box">
-                <h3>news 3</h3>
-                <p>an image should be herer and description of news</p>
-            </div>
-            <div class="news-box">
-                <h3>news 4</h3>
-                <p>an image should be herer and description of news</p>
-            </div>
-            <div class="news-box">
-                <h3>news 5</h3>
-                <p>an image should be herer and description of news</p>
-            </div>
-            <a href="news.html">Know more</a>
         </div>
+        <a href="news.html" class="btn_1">Read more</a>
     </section>
-    <hr>
+    <br>
     <section id="about">
-        <div class="container">
-            <h1>About</h1>
+        <div class="container" style="margin-bottom:20px;">
+            <h1 style="margin:20px 0; ">About Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum delectus, ex debitis id aliquam totam! Non, beatae. Repudiandae, earum, natus animi consequatur explicabo quibusdam, molestias perspiciatis debitis amet cupiditate eligendi laudantium quaerat illum accusamus impedit ipsa! Temporibus, architecto doloremque.</p>
-            <a href="about.html">Read more</a>
-        </div>
+            
+        </div><a href="about.html" class="btn_1" >Know more</a>
     </section>
-    <hr>
+    <br>
     <section id="contact">
         <div class="container">
-            <a href="contact.html">Contact us</a>
+            <p style="margin-bottom:30px;">We are availble 24x7 for your help</p>
+            <a href="contact.html" class="btn_1" >Contact us</a>
         </div>
     </section>
-    <hr>
     <footer>
         <div class="container">
             <p>My Website, copyright &copy;2019</p>

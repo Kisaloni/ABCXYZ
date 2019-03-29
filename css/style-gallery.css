@@ -1,16 +1,16 @@
-section div img{
+section#gallery div img{
     width: 100%;
     height:250px;
-    opacity: .5
+    opacity: .5;
 }
-section div img:hover{
+section#gallery div img:hover{
     opacity:1;
 }
-section div{
+section#gallery div{
     display: inline;
     padding: 4px;
 }
-section{
+section#gallery{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto;
@@ -18,26 +18,51 @@ section{
     justify-content: space-evenly
     align-content: center;
 }
+#one{
+    background:#35424a;
+    color:#fff;
+    padding:20px 0 0 0;
+}
+#two{
+    width:99%;
+    margin:auto;
+    text-align: center;
+}
+#two h1{
+    margin:0 0 20px 0;
+}
+section#gallery{
+    opacity: 0;
+    animation: ani-5 3s ease-in .5s 1 alternate forwards;
+}
+@keyframes ani-5{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 @media screen and (max-width:1180px){
-    section{
+    section#gallery{
         grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto auto;
     }
 }
 @media screen and (max-width:980px){
-    section{
+    section#gallery{
         grid-template-columns: auto auto auto ;
         grid-template-rows: auto auto auto;
     }
 }
 @media screen and (max-width:780px){
-    section{
+    section#gallery{
         grid-template-columns: auto auto  ;
         grid-template-rows: auto auto auto auto;
     }
 }
 @media screen and (max-width:580px){
-    section{
+    section#gallery{
         grid-template-columns: auto ;
         grid-template-rows: auto auto auto auto auto;
     }

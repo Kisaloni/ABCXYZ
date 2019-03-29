@@ -1,6 +1,6 @@
 /*------------------------code for responsive nav bar starts here-------------------------------- */
 
-nav.cf{
+nav.my-nav{
     position: sticky;
     top: 0;
 }
@@ -76,17 +76,17 @@ nav a#openup {
     position: relative;
 }
 }
-.cf:before, .cf:after {
+.my-nav:before, .my-nav:after {
 content: "";
 display: table;
 
 }
 
-.cf:after {
+.my-nav:after {
 clear: both;
 }
 
-.cf {
+.my-nav {
 zoom: 1;
 }
 
